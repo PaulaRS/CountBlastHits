@@ -17,6 +17,6 @@ python get_presence_absence_from_blast.py --seq-hits seq_hits.txt --file-suffix 
 
 # Usage
 
-This script was used to produce the homology profile illustrated in: 
+This script was used to produce the homology profile illustrated in the article: 
 Ramos-Silva P, Wall-Palmer D, Marlétaz F, Marin F, Peijnenburg KTCA. Evolution and biomineralization of pteropod shells. 
 J Struct Biol 2021; 213: 107779. https://doi.org/10.1016/j.jsb.2021.107779
