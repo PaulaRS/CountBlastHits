@@ -1,0 +1,46 @@
+Cnem821 ,chitin-binding peritrophin-A protein
+Cnem101824 ,chitin-interacting protein
+Cnem1323 ,chitin-interacting protein
+Cnem14003 ,chitin-interacting protein
+Cnem31170 ,chitin-interacting protein
+Cnem63304 ,chitin-interacting protein
+Lsta_ME_v2_Tri_255684 Lstag_sfc_4 ,chitin-interacting protein
+Lsta_ME_v2_idb_97925 Lstag_sfc_21 ,chitin-interacting protein
+Cnem248122 ,chitinase
+Lsta_ME_v2_CLC_241 Lstag_sfc_5 ,peroxidase
+Cnem104312 ,carbonic anhydrase 2
+Cnem10584 ,starmaker-like
+Lsta_ME_v2_Tri_102018 Lstag_sfc_23a ,starmaker-like
+Cnem1188 ,mesenchyme-specific cell surface (gigasin-like) protein
+Cnem4282 ,mesenchyme-specific cell surface (gigasin-like) protein
+Cnem4164 ,mucin-2-like
+Cnem123 ,extensin-like
+Lsta_ME_v2_idb_25973 Lstag_sfc_27a ,extensin-like
+Lsta_ME_v2_idb_42787 Lstag_sfc_19 ,C-type lectin related protein
+Cnem20360 ,cadherin
+Cnem2668 ,SVEP protein
+Cnem2858 ,APMAP
+Cnem58150 ,APMAP
+Cnem1850 ,basic Pro-rich protein
+Lsta_MP_v2_Tri_90027 Lstag_sfc_30 ,basic Pro-rich protein
+Cnem450 ,Gly Glu and Pro rich protein
+Cnem28994 ,fatty acid-binding protein
+Lsta_ME_v2_idb_53476 Lstag_sfc_33 ,cartilage matrix protein
+Cnem2744 ,shell-related protein
+Cnem7323 ,shell-related protein
+Lsta_ME_v2_idb_32853 Lstag_sfc_18 ,neural/ectodermal development factor IMP-L2-like
+Cnem572 ,neurofilament protein
+Lsta_ME_v2_Tri_206671 Lstag_sfc_32 ,intermediate filament protein
+Cnem7809 ,coiled-coil protein
+Cnem3883 ,V-type proton ATPase subunit A
+Cnem1237 ,V-type proton ATPase subunit B
+Cnem12941 ,uncharacterized protein
+Cnem2108 ,uncharacterized protein
+Cnem21112 ,uncharacterized protein
+Cnem1504 ,uncharacterized protein
+Cnem169764 ,uncharacterized protein
+Cnem6176 ,uncharacterized protein
+Cnem74063 ,uncharacterized protein
+Cnem7508 ,uncharacterised protein
+Lsta_ME_v2_idb_71081 Lstag_sfc_20a ,uncharacterized protein
+Lsta_ME_v2_idb_71083 Lstag_sfc_20b ,uncharacterized protein
