@@ -12,10 +12,11 @@ __author__ = 'Paula Ramos-Silva'
 #  https://doi.org/10.1016/j.jsb.2021.107779
 #
 # Created 22-03-2016
-# Updated 12-09-2022
+# Updated 08-02-2024
 
 import argparse
 import os
+import sys
 
 def main():
 
@@ -80,4 +81,9 @@ def create_dictionary_fromcommasepfile (myfile):
 
 #########################
 
-if __name__=="__main__": main()
+if __name__=="__main__":
+    usage = "python get_presence_absence_from_blast.py -h"
+    if len(sys.argv) != 2:
+        print("Incorrect arguments.\nFor usage try: ", usage)
+        sys.exit()
+    main()
