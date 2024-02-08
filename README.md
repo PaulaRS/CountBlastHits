@@ -17,13 +17,9 @@ python get_presence_absence_from_blast.py --seq-hits seq_hits.txt --file-suffix 
 
 # Utilization
 
-The output of this script was used with Evolview (https://www.evolgenius.info/evolview/#/treeview)
-to produce the sequence similarity profile as follows:
-
-![](/Users/paula.rsilva/Documents/Planktonic_gastropods/Manuscripts/Published/Accepted_Pteropods_Microstructure_Review_Journal_of_Structural_Biology/Figure 6/Figure_6_v3_revised.eps)
+The output of this script was used with [Evolview](https://www.evolgenius.info/evolview/#/treeview)
+to produce the sequence similarity profile presented [here](https://ars.els-cdn.com/content/image/1-s2.0-S1047847721000848-gr6.jpg).
 
 # Citation
-Ramos-Silva P, Wall-Palmer D, Marlétaz F, Marin F, Peijnenburg KTCA. 
-Evolution and biomineralization of pteropod shells. J Struct Biol 2021; 213: 107779. 
-https://doi.org/10.1016/j.jsb.2021.107779
-
+[Ramos-Silva P, Wall-Palmer D, Marlétaz F, Marin F, Peijnenburg KTCA. 
+Evolution and biomineralization of pteropod shells. J Struct Biol 2021; 213: 107779.](https://doi.org/10.1016/j.jsb.2021.107779)
