@@ -3,11 +3,11 @@
 This repository contains the python script **get_presence_absence_from_blast.py** to calculate presence/absence of
 gene/protein hits based in a blast output tabular file. 
 
-# Before running the script
+# Python packages
 
 Install the following python packages: argparse, os, sys
 
-# Running the script
+# Running the script for the first time
 
 For help:
 python get_presence_absence_from_blast.py -h
@@ -15,10 +15,10 @@ python get_presence_absence_from_blast.py -h
 With arguments:
 python get_presence_absence_from_blast.py --seq-hits seq_hits.txt --file-suffix '_blasted.txt'
 
-# Utilization
+# Usage
 
 The output of this script was used with [Evolview](https://www.evolgenius.info/evolview/#/treeview)
-to produce the sequence similarity profile presented [here](https://ars.els-cdn.com/content/image/1-s2.0-S1047847721000848-gr6.jpg).
+to produce a sequence [similarity profile](https://ars.els-cdn.com/content/image/1-s2.0-S1047847721000848-gr6.jpg).
 
 # Citation
 [Ramos-Silva P, Wall-Palmer D, Marlétaz F, Marin F, Peijnenburg KTCA. 
