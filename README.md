@@ -13,7 +13,7 @@ For help:
 python count_blast_hits.py -h
 
 With arguments:
-python get_presence_absence_from_blast.py --seq-hits seq_hits.txt --file-suffix '_blasted.txt'
+python count_blast_hits.py --seq-hits seq_hits.txt --file-suffix '_blasted.txt'
 
 # Usage
 
