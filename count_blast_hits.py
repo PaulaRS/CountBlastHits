@@ -1,6 +1,6 @@
 __author__ = 'Paula Ramos-Silva'
 __dateCreated__ = "22-03-2016"
-__dateModified__ = "23-02-2024"
+__dateModified__ = "29-02-2024"
 
 """
 Reads txt and/or csv files in the input/ folder resulting from blast tabular output and prints a list with number of 
