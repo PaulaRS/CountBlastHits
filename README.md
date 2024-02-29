@@ -1,6 +1,6 @@
-# PresenceAbsenceFromBlast
+# CountBlastHits
  
-This repository contains the python script **get_presence_absence_from_blast.py** to calculate presence/absence of
+This repository contains the python script **count_blast_hits.py** to calculate presence/absence of
 gene/protein hits based in a blast output tabular file. 
 
 # Python packages
@@ -10,7 +10,7 @@ Install the following python packages: argparse, os, sys
 # Running the script for the first time
 
 For help:
-python get_presence_absence_from_blast.py -h
+python count_blast_hits.py -h
 
 With arguments:
 python get_presence_absence_from_blast.py --seq-hits seq_hits.txt --file-suffix '_blasted.txt'

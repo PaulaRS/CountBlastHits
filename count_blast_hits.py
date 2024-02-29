@@ -6,7 +6,7 @@ __dateModified__ = "23-02-2024"
 Reads txt and/or csv files in the input/ folder resulting from blast tabular output and prints a list with number of 
 hits per subject id. 
 
-usage: python get_presence_absence_from_blast.py -h
+usage: python count_blast_hits.py -h
 
 Reference:
 Paula Ramos-Silva, Deborah Wall-Palmer, Ferdinand Marlétaz, Frédéric Marin, Katja T.C.A. Peijnenburg,
@@ -26,10 +26,11 @@ from pathlib import Path
 
 def main():
     parser = argparse.ArgumentParser(description="Reads txt and csv files from blast output tabular format and prints "
-                                                 "list of presence/absence of sequence hits specified by the user")
+                                                 "number of sequence hits per subject ids specified by the user in seq_"
+                                                 "hits")
     parser.add_argument('--seq-hits', dest='seq_hits', help='text file with accession numbers and sequence names '
                                                             'separated by commas')
-    parser.add_argument('--file-suffix', dest='file_suffix', help='suffix used to name blast output csv files ex: '
+    parser.add_argument('--file-suffix', dest='file_suffix', help='suffix used to name blast output txt/csv files ex: '
                                                                   '_blasted.txt')
     args = parser.parse_args()
 
@@ -39,8 +40,8 @@ def main():
 
     # output file
     output_folder = Path("output/")
-    output_file = output_folder/ "profile.txt"
-    profile = open(output_file, "a")
+    output_file = output_folder / "profile.txt"
+    profile = open(output_file, "w")
 
     for csv in csv_files:
         # creates dictionary and prints subject_ids listed in seq_hits and corresponding query_ids that have a
@@ -64,13 +65,14 @@ def main():
 
                 lnoh.append(nrofhits)
 
-        profile.write("{}\t{}\n".format(csv, lnoh))
+        lnoh2str = map(str, lnoh)
+        profile.write("{}\t{}\n".format(csv, ', '.join(lnoh2str)))
 
     profile.close()
 
 
 """
-This function creates a dictionary where keys are subject id(s) and values are the list of query_id(s) having
+This function creates a dictionary where keys are subject def(s) and values are the list of query_id(s) having
 # subject_id as hit in the blast report
 """
 
@@ -94,8 +96,8 @@ def create_dictionary_from_csv(myfile):
 #########################
 
 if __name__ == "__main__":
-    usage = "python get_presence_absence_from_blast.py -h"
-    if len(sys.argv) < 5:
+    usage = "python count_blast_hits.py -h"
+    if len(sys.argv) == 1:
         print("Incorrect arguments.\nFor usage try: ", usage)
         sys.exit()
     main()
